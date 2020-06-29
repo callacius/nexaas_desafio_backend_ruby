@@ -12,7 +12,9 @@ Para instalação se já tiver o Ruby e ROR na máquina, pode ser usado o proces
 - Executar “bundle install” para instalar as gems necessárias.
 - Executar “bundle exec rails db:create db:migrate” para criar o banco, e a estrutura das tabelas, o projeto foi criado e testado com o sqlite.
 - Se quiser popular o banco com dados, executar “rails dev:setup”.
-- Executar “rails s” para iniciar o serviço
+- Executar “rails s” para iniciar o puma.
+
+
 Também foi disponibilizado um arquivo “dockerfile” e “docker-compose.yml” para testar via container, faça a seguinte rotina:
 - Clonar o repositório.
 - Abrir a pasta pelo terminal.
