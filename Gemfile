@@ -12,6 +12,7 @@ gem 'puma', '~> 4.1'
 
 gem 'rspec-rails', '~> 4.0'
 gem 'faker', '~> 2.12'
+gem 'versionist', '~> 1.5'
 # gem 'versionist'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
