@@ -23,6 +23,7 @@ Também foi disponibilizado um arquivo “dockerfile” e “docker-compose.yml�
 - Executar “docker-compose run --rm app bundle exec rails db:create db:migrate”.
 - Executar “docker-compose run --rm app bundle exec rails rails dev:setup”.
 - Executar “docker-compose up”.
+
 Para instalação com container for disponibilizados 2 arquivos .yml, com configuração para outros bancos diferente de sqlite, pra usar substitua ou renomeie para Docker-compose.yml e altere a conexão e execute os processos anteriores
  
 
